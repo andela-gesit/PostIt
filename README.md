@@ -1,18 +1,15 @@
-[![Build Status](https://travis-ci.org/andela-gesit/PostIt.svg?branch=develop)](https://travis-ci.org/andela-gesit/PostIt)
-[![Coverage Status](https://coveralls.io/repos/github/andela-gesit/PostIt/badge.svg?branch=develop)](https://coveralls.io/github/victor4l/PostIt?branch=develop)
-[![Code Climate](https://codeclimate.com/github/andela-gesit/PostIt/badges/gpa.svg)](https://codeclimate.com/github/victor4l/PostIt)
-[![Issue Count](https://codeclimate.com/github/andela-gesit/PostIt/badges/issue_count.svg)](https://codeclimate.com/github/victor4l/PostIt)
+[![Coverage Status](https://coveralls.io/repos/github/victor4l/PostIt/badge.svg?branch=develop)](https://coveralls.io/github/victor4l/PostIt?branch=develop)
 
 # PostIt
 
 ### Introduction 
-PostIt is a simple application that allows friends and colleagues create groups for communications. 
+PostIt is a simple application that allows friends and colleagues to create groups for communication. 
 
 ### Technologies used
 * [NodeJS](https://nodejs.org/) This is a JavaScript runtime built on Chrome's V8 JavaScript engine. It is used for installing and managing the dependencies.
 * [ReactJS](https://reactjs.org) The front end is developed using the ReactJS library
 * [Redux](https://redux.org) State is contained on the client side using Redux
-* [socket.io](https://socket.io) This is a JavaScript library for realtime web applications. It enables realtime, bi-directional communication between web clients and servers. It has two parts: a client-side library that runs in the browser, and a server-side library for Node.js. It was used for real time communication among members of groups
+* [socket.io](https://socket.io) This is a JavaScript library for real-time web applications. It enables real-time, bi-directional communication between web clients and servers. It has two parts: a client-side library that runs in the browser, and a server-side library for Node.js. It was used for real-time communication among members of groups
 * [nodemailer](https://nodemailer.com) This is an e-mail sending Nodejs module created by Andris Reinman. It is used in parts of the app that involve sending emails (password reset, group notifications);
 
 ### Documentation
